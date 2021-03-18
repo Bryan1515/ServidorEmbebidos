@@ -43,7 +43,7 @@ function LED1_Off(){
 	
     client.subscribe("bryan.loaiza@unach.edu.ec/tema1");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "bryan.loaiza@unach.edu.ec/tema1";
+    message.destinationName = "bryan.loaiza@unach.edu.ec/tema2";
     client.send(message);
 	
   }
