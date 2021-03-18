@@ -43,7 +43,7 @@ function LED1_Off(){
 	
     client.subscribe("lfrenteriax@hotmail.com/tema1");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "lfrenteriax@hotmail.com/tema1";
+    message.destinationName = "lfrenteriax@hotmail.com/tema2";
     client.send(message);
 	
   }
